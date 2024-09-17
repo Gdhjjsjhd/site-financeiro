@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <header>
+            <h1>Gereciamneto Financeiro Pessoal</h1>
+        </header>
+
+        <form id="transacaoForm">
+            <input type="text" id="descricao" placeholder="Descrição" required>
+            <input type="number" id="valor" placeholder="valor" required>
+
+            <select id="tipoTransacao">
+                <option value="debito">Débito</option>
+                <option value="despesa">Despesa</option>
+            </select>
+
+            <button type="submit" id="submitBtn">Adicionar</button>
+        </form>
+
+
+        <ul id="transacaoList"></ul>
+
+        <div class="saldo">
+            <h2>
+                Saldo Total:
+                <span id="saldoTotal">R$ 0,00</span>
+            </h2>
+        </div>
+    </div>
+
+</body>
+<script src="js.js"></script>
+
+</html>
