@@ -34,16 +34,16 @@ form input, form select, form button{
     border-radius: 4px;
 }
 
-form button{
+ button{
     background-color: #28a745;
     color: white;
     cursor: pointer;
     border: none;
+    border: #28a745;
+    border-radius: 5px;
 }
 
-form button:hover{
-    border: #28a745;
-}
+
 
 ul{
     list-style-type: none;
